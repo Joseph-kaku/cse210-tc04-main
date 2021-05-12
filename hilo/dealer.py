@@ -32,4 +32,24 @@ class Dealer:
 
 
     def get_points(self):
+        
+
+        # # """Computes the total number of points for the player.
+        # # The player starts the game with 300 points.
+        # # The player earns 100 points if they guessed correctly.
+        # # The player loses 75 points if they guessed incorrectly.    
+        # # Returns:
+        # #     points (total score of the player)
+        # #     If a player reaches 0 points the game is over,
+        # #     otherwise, the player decides whether or not
+        # #     to play again.
+        # # """
+        # points = 300
+   
+        # if take_turn > guess:
+        #     points += 100
+        #     points -= 75
+       
+        # if point = 0:
+        #     print ("Game over")   
         return self.points
